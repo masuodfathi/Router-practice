@@ -11,9 +11,9 @@ export const Users = () => {
             <li>Melika</li>
             <li>Milad</li>
         </ul>
-        <di>
+        <div>
             <Outlet/>
-        </di>
+        </div>
         <div>
             <button onClick={()=>setSearchParams({filter:'Active'})}>Active Users</button>
             <button onClick={()=>setSearchParams({})}>Reset filter</button>
